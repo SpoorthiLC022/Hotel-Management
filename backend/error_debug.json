@@ -1,0 +1,22 @@
+{
+  "errorLabelSet": {},
+  "errorResponse": {
+    "index": 0,
+    "code": 11000,
+    "errmsg": "E11000 duplicate key error collection: staysync.users index: email_1 dup key: { email: \"debug_dup_log@example.com\" }",
+    "keyPattern": {
+      "email": 1
+    },
+    "keyValue": {
+      "email": "debug_dup_log@example.com"
+    }
+  },
+  "index": 0,
+  "code": 11000,
+  "keyPattern": {
+    "email": 1
+  },
+  "keyValue": {
+    "email": "debug_dup_log@example.com"
+  }
+}
